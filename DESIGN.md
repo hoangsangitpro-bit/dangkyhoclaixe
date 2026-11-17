@@ -36,7 +36,7 @@ colors:
   primary-fixed: '#dbe1ff'
   primary-fixed-dim: '#b4c5ff'
   on-primary-fixed: '#00174b'
-  on-primary-fixed-variant: '#003ea8'
+  on-primary-fixed-variant: '#003ea7'
   secondary-fixed: '#dce1ff'
   secondary-fixed-dim: '#b7c4ff'
   on-secondary-fixed: '#001551'
