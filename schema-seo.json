@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://autodrive-hcm.edu.vn/#organization",
+      "name": "AutoDrive TP.HCM - Trung tâm đào tạo lái xe",
+      "url": "https://autodrive-hcm.edu.vn",
+      "logo": "https://lh3.googleusercontent.com/aida/AEtjO1XGsYG9NBzZIHi92gdClYePr_hgCBLGwCYdDsusRx1r7EUKEvaSFmTEu3dnpXIWWyUYV7m_tuwFnMGkycEV_4oVnX6_AzQRk8I_rvtnF1Q5eYaGPBpc4DcGEgLEVBh4-1bppjkAxMlkTaPo39KeKgvBF4CUC2alN3OH9r8eDXALD2LUye-8A0EsC0PF3VIJFuaIGvNW8_o2ZLnbL_tDE9sw5LE1t1vS8sMpgjEiVLs",
+      "telephone": "0909123456",
+      "email": "contact@autodrive-hcm.edu.vn",
+      "priceRange": "14500000VND - 19000000VND",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Đường Huỳnh Tấn Phát, P. Tân Thuận Đông",
+        "addressLocality": "Quận 7",
+        "addressRegion": "TP. Hồ Chí Minh",
+        "addressCountry": "VN"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "5280"
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://autodrive-hcm.edu.vn/#course-b1",
+      "name": "Khóa Học Lái Xe Ô Tô Hạng B1 (Số tự động)",
+      "description": "Đào tạo lái xe số tự động 4-7 chỗ cho gia đình. Cam kết 1 kèm 1 xe đời mới, tỷ lệ đậu 98.6%.",
+      "provider": {
+        "@id": "https://autodrive-hcm.edu.vn/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "14500000",
+        "priceCurrency": "VND",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://autodrive-hcm.edu.vn/#course-b2",
+      "name": "Khóa Học Lái Xe Ô Tô Hạng B2 (Số sàn & Dịch vụ)",
+      "description": "Đào tạo lái xe ô tô số sàn và số tự động, chạy dịch vụ và kinh doanh vận tải. Chạy đủ 810km DAT.",
+      "provider": {
+        "@id": "https://autodrive-hcm.edu.vn/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "15500000",
+        "priceCurrency": "VND",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "Course",
+      "@id": "https://autodrive-hcm.edu.vn/#course-c",
+      "name": "Khóa Học Lái Xe Ô Tô Hạng C (Xe tải)",
+      "description": "Đào tạo lái xe tải trọng trên 3.5 tấn và các loại xe hạng B1, B2. Bao trọn gói lý thuyết và sa hình.",
+      "provider": {
+        "@id": "https://autodrive-hcm.edu.vn/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "19000000",
+        "priceCurrency": "VND",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  ]
+}
+

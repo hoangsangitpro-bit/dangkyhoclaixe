@@ -1,0 +1,106 @@
+[section bg_color="#f8fafc" padding="70px" padding__sm="35px" id="cam-ket"]
+[row]
+[col span="12" span__sm="12" align="center"]
+<div style="font-size: 13px; font-weight: 800; color: #1d4ed8; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px;">QUYỀN LỢI HỌC VIÊN</div>
+<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">5 cam kết vàng tại trung tâm</h2>
+<p style="font-size: 15px; color: #64748b; max-width: 650px; margin: 0 auto 40px auto;">
+  Đập tan nỗi sợ phát sinh chi phí hoặc bị bỏ rơi giữa chừng. Quyền lợi được ghi cụ thể trong hợp đồng đào tạo pháp lý.
+</p>
+[/col]
+[/row]
+
+[row v_align="equal"]
+<!-- Cam kết 1: Học phí trọn gói -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-bento-card">
+  <div class="drive-bento-icon">
+    <span class="material-symbols-outlined" style="font-size: 26px;">shield</span>
+  </div>
+  <h3 style="font-size: 18px; font-weight: 700; color: #0f172a; margin: 0;">Học phí trọn gói</h3>
+  <p style="font-size: 13px; color: #475569; line-height: 1.6; margin: 0;">
+    Cam kết bằng văn bản ký ngay ngày nhập học. Tuyệt đối không phát sinh chi phí bồi dưỡng giáo viên, tiền xăng xe hay phụ phí sân tập trong suốt quá trình.
+  </p>
+  <div style="margin-top: auto; padding-top: 10px; font-size: 12px; font-weight: 700; color: #1d4ed8; display: flex; align-items: center; gap: 4px;">
+    <span class="material-symbols-outlined" style="font-size: 16px;">verified</span> Hợp đồng pháp lý có dấu đỏ
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- Cam kết 2: Thời gian linh hoạt -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-bento-card">
+  <div class="drive-bento-icon">
+    <span class="material-symbols-outlined" style="font-size: 26px;">schedule</span>
+  </div>
+  <h3 style="font-size: 18px; font-weight: 700; color: #0f172a; margin: 0;">Thời gian linh hoạt</h3>
+  <p style="font-size: 13px; color: #475569; line-height: 1.6; margin: 0;">
+    Học viên chủ động đặt lịch học theo thời gian rảnh cá nhân (Sáng / Chiều / Tối từ Thứ 2 đến Chủ Nhật). Trung tâm không thu thêm phụ phí dạy học cuối tuần.
+  </p>
+  <div style="margin-top: auto; padding-top: 10px; font-size: 12px; font-weight: 700; color: #1d4ed8; display: flex; align-items: center; gap: 4px;">
+    <span class="material-symbols-outlined" style="font-size: 16px;">event_available</span> Đổi lịch trước 24h miễn phí
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- Cam kết 3: Học 1 kèm 1 -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-bento-card">
+  <div class="drive-bento-icon">
+    <span class="material-symbols-outlined" style="font-size: 26px;">person_check</span>
+  </div>
+  <h3 style="font-size: 18px; font-weight: 700; color: #0f172a; margin: 0;">Học 1 kèm 1</h3>
+  <p style="font-size: 13px; color: #475569; line-height: 1.6; margin: 0;">
+    Tiêu chuẩn nghiêm ngặt 1 học viên + 1 giáo viên + 1 xe đời mới. Đảm bảo 100% thời lượng ngồi sau vô lăng thực tế, giúp học viên tiến bộ nhanh gấp đôi.
+  </p>
+  <div style="margin-top: auto; padding-top: 10px; font-size: 12px; font-weight: 700; color: #1d4ed8; display: flex; align-items: center; gap: 4px;">
+    <span class="material-symbols-outlined" style="font-size: 16px;">stars</span> Đổi giáo viên nếu không phù hợp
+  </div>
+</div>
+[/ux_html]
+[/col]
+[/row]
+
+[row v_align="equal"]
+<!-- Cam kết 4: Sân thi chuẩn sát hạch -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-bento-card">
+  <div class="drive-bento-icon">
+    <span class="material-symbols-outlined" style="font-size: 26px;">pin_drop</span>
+  </div>
+  <h3 style="font-size: 18px; font-weight: 700; color: #0f172a; margin: 0;">Học &amp; thi sân chuẩn</h3>
+  <p style="font-size: 13px; color: #475569; line-height: 1.6; margin: 0;">
+    Sân tập sa hình rộng 10.000m² đạt chuẩn sát hạch Sở GTVT. Trang bị đầy đủ hệ thống cảm biến chấm điểm tự động và cabin lái xe mô phỏng 3D.
+  </p>
+  <div style="margin-top: auto; padding-top: 10px; font-size: 12px; font-weight: 700; color: #1d4ed8; display: flex; align-items: center; gap: 4px;">
+    <span class="material-symbols-outlined" style="font-size: 16px;">check_box</span> Sân thi chuẩn 11 bài sa hình
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- Cam kết 5: Hỗ trợ thủ tục trọn gói A-Z -->
+[col span="8" span__sm="12"]
+[ux_html]
+<div class="drive-bento-card">
+  <div class="drive-bento-icon">
+    <span class="material-symbols-outlined" style="font-size: 26px;">assignment_turned_in</span>
+  </div>
+  <h3 style="font-size: 18px; font-weight: 700; color: #0f172a; margin: 0;">Hỗ trợ thủ tục trọn gói từ A-Z</h3>
+  <p style="font-size: 13px; color: #475569; line-height: 1.6; margin: 0;">
+    Quy trình làm hồ sơ tinh gọn chỉ trong 15 phút. Học viên chỉ cần chuẩn bị căn cước công dân gắn chip, trung tâm hỗ trợ chụp hình thẻ chuẩn quy cách và tổ chức khám sức khỏe lái xe tập trung ngay tại văn phòng tuyển sinh.
+  </p>
+  <div style="margin-top: auto; padding-top: 10px; font-size: 12px; font-weight: 700; color: #1d4ed8; display: flex; align-items: center; gap: 4px;">
+    <span class="material-symbols-outlined" style="font-size: 16px;">thumb_up</span> Tiết kiệm tối đa thời gian & công sức đi lại
+  </div>
+</div>
+[/ux_html]
+[/col]
+[/row]
+[/section]
+

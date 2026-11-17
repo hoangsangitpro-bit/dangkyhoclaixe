@@ -1,0 +1,98 @@
+[section bg_color="#f8fafc" padding="60px" padding__sm="30px" class="drive-hero-section"]
+[row]
+[col span="12" span__sm="12"]
+
+[ux_html]
+<!-- Pill Chứng Thực Uy Tín -->
+<div class="drive-pill">
+  <span class="drive-dot-pulse"></span>
+  <span>Hơn 5.000+ học viên đã tốt nghiệp và có bằng lái</span>
+</div>
+[/ux_html]
+
+[gap height="15px"]
+
+<!-- H1 SEO DUY NHẤT TRÊN TRANG (Chỉnh sửa text tại đây) -->
+<h1 style="font-size: 42px; line-height: 1.25; font-weight: 800; color: #0f172a; margin-bottom: 15px;">
+  Học lái xe ô tô tại TP.HCM - Trọn gói 14.500.000đ không phát sinh
+</h1>
+
+<!-- H2 Mô tả phụ chuẩn SEO -->
+<p style="font-size: 18px; line-height: 1.6; color: #475569; max-width: 780px; margin-bottom: 20px;">
+  Đào tạo lái xe các hạng B1, B2, C. Cam kết tỉ lệ đậu cao, lịch học linh hoạt tự chọn từ Thứ 2 đến Chủ Nhật, thực hành 100% trên xe đời mới.
+</p>
+
+[ux_html]
+<!-- 3 Ưu Điểm Nổi Bật Dạng Tag -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 25px;">
+  <div class="drive-tag-item">
+    <span class="material-symbols-outlined" style="color:#2563eb; font-size:18px;">verified</span>
+    <span>Cam kết hợp đồng pháp lý</span>
+  </div>
+  <div class="drive-tag-item">
+    <span class="material-symbols-outlined" style="color:#2563eb; font-size:18px;">directions_car</span>
+    <span>Học 1 kèm 1 xe đời mới</span>
+  </div>
+  <div class="drive-tag-item">
+    <span class="material-symbols-outlined" style="color:#2563eb; font-size:18px;">payments</span>
+    <span>Hỗ trợ trả góp 0% lãi suất</span>
+  </div>
+</div>
+[/ux_html]
+
+<!-- Cụm Nút CTA Kép Chuyển Đổi -->
+[button text="Đăng ký nhận ưu đãi 30%" link="#dang-ky-form" color="primary" style="shade" size="large" radius="10" icon="icon-angle-right" class="drive-btn-primary"]
+[button text="Xem bảng học phí" link="#khoa-hoc" color="white" style="outline" size="large" radius="10" icon="icon-clock" class="drive-btn-secondary"]
+
+[gap height="40px"]
+<hr style="border: 0; border-top: 1px solid #e2e8f0; margin-bottom: 30px;" />
+
+<!-- 3 Cột Thống Kê Uy Tín (Metrics Strip) -->
+[row_inner]
+[col_inner span="4" span__sm="12"]
+[ux_html]
+<div class="drive-metric-box">
+  <div class="drive-metric-icon">
+    <span class="material-symbols-outlined" style="font-size: 26px;">award_star</span>
+  </div>
+  <div>
+    <div class="drive-metric-num">98.6%</div>
+    <div class="drive-metric-label">Tỷ lệ thi đậu ngay lần 1</div>
+  </div>
+</div>
+[/ux_html]
+[/col_inner]
+
+[col_inner span="4" span__sm="12"]
+[ux_html]
+<div class="drive-metric-box">
+  <div class="drive-metric-icon">
+    <span class="material-symbols-outlined" style="font-size: 26px;">garage</span>
+  </div>
+  <div>
+    <div class="drive-metric-num">100%</div>
+    <div class="drive-metric-label">Xe tập đời 2022 - 2024</div>
+  </div>
+</div>
+[/ux_html]
+[/col_inner]
+
+[col_inner span="4" span__sm="12"]
+[ux_html]
+<div class="drive-metric-box">
+  <div class="drive-metric-icon">
+    <span class="material-symbols-outlined" style="font-size: 26px;">near_me</span>
+  </div>
+  <div>
+    <div class="drive-metric-num">12+</div>
+    <div class="drive-metric-label">Sân tập phủ khắp TP.HCM</div>
+  </div>
+</div>
+[/ux_html]
+[/col_inner]
+[/row_inner]
+
+[/col]
+[/row]
+[/section]
+

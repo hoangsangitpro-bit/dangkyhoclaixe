@@ -1,0 +1,64 @@
+[ux_html]
+<!-- ==========================================================================
+     BLOCK 00: HEADER & MENU LANDING PAGE (STICKY ONE-PAGE NAVIGATION)
+     Tự động dính ở đỉnh màn hình, cuộn mượt đến các khối và tương thích Mobile
+     ========================================================================== -->
+<header class="drive-landing-header">
+  <div class="drive-header-inner">
+    
+    <!-- 1. LOGO & TÊN THƯƠNG HIỆU -->
+    <a href="#" class="drive-logo-wrap" title="AutoDrive - Đào tạo lái xe TP.HCM">
+      <img src="https://lh3.googleusercontent.com/aida/AEtjO1XGsYG9NBzZIHi92gdClYePr_hgCBLGwCYdDsusRx1r7EUKEvaSFmTEu3dnpXIWWyUYV7m_tuwFnMGkycEV_4oVnX6_AzQRk8I_rvtnF1Q5eYaGPBpc4DcGEgLEVBh4-1bppjkAxMlkTaPo39KeKgvBF4CUC2alN3OH9r8eDXALD2LUye-8A0EsC0PF3VIJFuaIGvNW8_o2ZLnbL_tDE9sw5LE1t1vS8sMpgjEiVLs" alt="Logo AutoDrive" class="drive-logo-img" />
+      <div class="drive-logo-text">
+        <span class="drive-brand-name">AutoDrive</span>
+        <span class="drive-brand-slogan">Đào tạo lái xe TP.HCM</span>
+      </div>
+    </a>
+
+    <!-- 2. MENU ĐIỀU HƯỚNG LANDING PAGE (DESKTOP) -->
+    <nav aria-label="Menu chính">
+      <ul class="drive-nav-menu">
+        <li><a href="#khoa-hoc">Khóa học</a></li>
+        <li><a href="#cam-ket">Cam kết đào tạo</a></li>
+        <li><a href="#quy-trinh">Quy trình học</a></li>
+        <li><a href="#cam-nhan">Cảm nhận học viên</a></li>
+        <li><a href="#dang-ky-form">Đăng ký tư vấn</a></li>
+      </ul>
+    </nav>
+
+    <!-- 3. CỤM HOTLINE & NÚT CTA ĐĂNG KÝ -->
+    <div class="drive-header-actions">
+      <!-- Hotline gọi nhanh -->
+      <a href="tel:0909123456" class="drive-header-call" title="Hotline tư vấn">
+        <span class="material-symbols-outlined" style="font-size: 18px;">call</span>
+        <span>0909 123 456</span>
+      </a>
+
+      <!-- Nút Đăng ký tư vấn nhận ưu đãi -->
+      <a href="#dang-ky-form" class="drive-btn-primary" style="padding: 10px 18px !important; font-size: 13px !important; border-radius: 8px !important;">
+        <span>Đăng ký ngay</span>
+        <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span>
+      </a>
+
+      <!-- Nút bật menu trên điện thoại (Mobile Toggle) -->
+      <button class="drive-mobile-toggle" type="button" aria-label="Mở menu điều hướng" onclick="document.getElementById('drive-mobile-drawer').classList.toggle('is-active');">
+        <span class="material-symbols-outlined" style="font-size: 24px;">menu</span>
+      </button>
+    </div>
+
+    <!-- 4. MENU XỔ XUỐNG DÀNH CHO ĐIỆN THOẠI (MOBILE DRAWER) -->
+    <div class="drive-mobile-menu-drawer" id="drive-mobile-drawer">
+      <a href="#khoa-hoc" onclick="document.getElementById('drive-mobile-drawer').classList.remove('is-active');">Khóa học nổi bật</a>
+      <a href="#cam-ket" onclick="document.getElementById('drive-mobile-drawer').classList.remove('is-active');">5 cam kết vàng</a>
+      <a href="#quy-trinh" onclick="document.getElementById('drive-mobile-drawer').classList.remove('is-active');">Quy trình đào tạo</a>
+      <a href="#cam-nhan" onclick="document.getElementById('drive-mobile-drawer').classList.remove('is-active');">Cảm nhận học viên</a>
+      <a href="#dang-ky-form" onclick="document.getElementById('drive-mobile-drawer').classList.remove('is-active');">Đăng ký tư vấn & Nhận ưu đãi</a>
+      <a href="tel:0909123456" style="color: #1d4ed8; font-weight: 700; border-bottom: none;">
+        <span class="material-symbols-outlined" style="font-size: 16px; vertical-align: middle;">call</span> Hotline: 0909 123 456
+      </a>
+    </div>
+
+  </div>
+</header>
+[/ux_html]
+

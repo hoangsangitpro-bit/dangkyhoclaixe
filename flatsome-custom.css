@@ -1,0 +1,630 @@
+/* ==========================================================================
+   FLATSOME CUSTOM STYLES FOR LANDING PAGE ĐÀO TẠO LÁI XE (AUTODRIVE)
+   Dán toàn bộ mã này vào: Giao diện > Tùy biến > Bổ sung CSS (hoặc Advanced > Custom CSS)
+   ========================================================================== */
+
+/* 1. Font Material Symbols Outlined cho Icons */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined' !important;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 2. Biến màu và chuẩn giao diện Flatsome & Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 2.1. Sticky Landing Page Header Navigation */
+.drive-landing-header {
+  position: sticky !important;
+  top: 0 !important;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  padding: 12px 0;
+  transition: all 0.3s ease;
+}
+.drive-header-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  position: relative;
+}
+.drive-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none !important;
+}
+.drive-logo-img {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+}
+.drive-logo-text {
+  display: flex;
+  flex-direction: column;
+}
+.drive-brand-name {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1d4ed8;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+.drive-brand-slogan {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-top: 3px;
+}
+.drive-nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.drive-nav-menu a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+  text-decoration: none !important;
+  padding: 6px 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.drive-nav-menu a:hover {
+  color: #1d4ed8;
+}
+.drive-nav-menu a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #1d4ed8;
+  transition: width 0.2s ease;
+}
+.drive-nav-menu a:hover::after {
+  width: 100%;
+}
+.drive-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.drive-header-call {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8 !important;
+  background: #f0f7ff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+.drive-header-call:hover {
+  background: #dbeafe;
+}
+.drive-mobile-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+  color: #1e293b;
+}
+.drive-mobile-menu-drawer {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-bottom: 2px solid #2563eb;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+  padding: 16px 20px;
+  flex-direction: column;
+  gap: 10px;
+}
+.drive-mobile-menu-drawer.is-active {
+  display: flex !important;
+}
+.drive-mobile-menu-drawer a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f5f9;
+  text-decoration: none !important;
+}
+.drive-mobile-menu-drawer a:hover {
+  color: #1d4ed8;
+}
+
+@media (max-width: 1024px) {
+  .drive-nav-menu {
+    display: none;
+  }
+  .drive-mobile-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 640px) {
+  .drive-header-call {
+    display: none;
+  }
+  .drive-brand-slogan {
+    display: none;
+  }
+}
+:root {
+  --drive-primary: #1d4ed8;
+  --drive-primary-hover: #1e40af;
+  --drive-primary-light: #eff6ff;
+  --drive-accent: #2563eb;
+  --drive-dark: #0f172a;
+  --drive-slate: #334155;
+  --drive-muted: #64748b;
+  --drive-border: #e2e8f0;
+  --drive-bg-subtle: #f8fafc;
+}
+
+/* 3. Khối Badge & Pill */
+.drive-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  background-color: rgba(219, 234, 254, 0.85);
+  border: 1px solid #bfdbfe;
+  color: #1e40af;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.drive-dot-pulse {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2563eb;
+  box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.7);
+  animation: drivePulse 1.8s infinite;
+}
+
+@keyframes drivePulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(37, 99, 235, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); }
+}
+
+/* 4. Thẻ Highlight Check & Cam kết nhanh */
+.drive-tag-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* 5. Khối thống kê (Metrics Strip) */
+.drive-metric-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.drive-metric-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(219, 234, 254, 0.75);
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.drive-metric-num {
+  font-size: 26px;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+}
+.drive-metric-label {
+  font-size: 13px;
+  color: #475569;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+/* 6. Thẻ Khóa học (Pricing Cards) */
+.drive-course-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 28px 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.drive-course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+
+.drive-course-card.is-popular {
+  border: 2px solid #2563eb !important;
+  box-shadow: 0 10px 25px -5px rgba(37, 99, 235, 0.15);
+  transform: translateY(-6px);
+}
+.drive-course-card.is-popular:hover {
+  transform: translateY(-10px);
+}
+
+.drive-popular-badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2563eb;
+  color: #ffffff;
+  padding: 4px 14px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.drive-price-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 16px 0;
+}
+.drive-course-card.is-popular .drive-price-box {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+}
+
+.drive-current-price {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1d4ed8;
+  line-height: 1;
+}
+.drive-old-price {
+  font-size: 13px;
+  color: #94a3b8;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.drive-feature-list {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 0 20px 0 !important;
+}
+.drive-feature-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 13px;
+  color: #334155;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.drive-feature-list li .material-symbols-outlined {
+  color: #2563eb;
+  font-size: 18px;
+  margin-top: 1px;
+  flex-shrink: 0;
+}
+
+/* 7. Bento Grid Cam Kết Vàng */
+.drive-bento-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.3s ease;
+}
+.drive-bento-card:hover {
+  background: #ffffff;
+  border-color: #cbd5e1;
+  box-shadow: 0 8px 20px -2px rgba(0,0,0,0.06);
+  transform: translateY(-3px);
+}
+.drive-bento-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 8. Step / Lộ Trình Đào Tạo */
+.drive-step-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+.drive-step-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px -3px rgba(0,0,0,0.08);
+  border-color: #bfdbfe;
+}
+.drive-step-num {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+  box-shadow: 0 3px 8px rgba(37, 99, 235, 0.3);
+}
+
+/* 9. Testimonial Card */
+.drive-testi-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 26px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  transition: all 0.3s ease;
+}
+.drive-testi-card:hover {
+  background: #ffffff;
+  border-color: #cbd5e1;
+  box-shadow: 0 8px 20px -2px rgba(0,0,0,0.06);
+}
+.drive-stars {
+  color: #f59e0b;
+  font-variation-settings: 'FILL' 1;
+  font-size: 18px;
+  display: flex;
+  gap: 2px;
+}
+.drive-avatar-letter {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+/* 10. Form Chuyển Đổi Nổi Bật (Lead Form) */
+.drive-form-container {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 28px;
+  padding: 36px 32px;
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.08);
+}
+.drive-form-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 24px;
+}
+.drive-input-group label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 6px;
+  display: block;
+}
+.drive-input-group input, 
+.drive-input-group select {
+  width: 100%;
+  height: 46px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  padding: 8px 14px;
+  font-size: 14px;
+  color: #0f172a;
+  outline: none;
+  transition: all 0.2s;
+  box-shadow: none !important;
+}
+.drive-input-group input:focus, 
+.drive-input-group select:focus {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15) !important;
+}
+.drive-radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 0 !important;
+}
+.drive-radio-option:hover {
+  border-color: #bfdbfe;
+  background: #eff6ff;
+}
+.drive-radio-option input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #2563eb;
+  margin: 0;
+}
+
+/* 11. Nút bấm CTA Chuẩn Flatsome */
+.drive-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #2563eb !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  border-radius: 12px !important;
+  padding: 14px 28px !important;
+  border: none !important;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35) !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+}
+.drive-btn-primary:hover {
+  background-color: #1d4ed8 !important;
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.45) !important;
+  transform: translateY(-2px);
+  color: #ffffff !important;
+}
+.drive-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #ffffff !important;
+  color: #334155 !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  border-radius: 12px !important;
+  padding: 13px 26px !important;
+  border: 1px solid #cbd5e1 !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+}
+.drive-btn-secondary:hover {
+  background-color: #f8fafc !important;
+  border-color: #94a3b8 !important;
+  color: #1d4ed8 !important;
+}
+
+/* 12. Floating Action Button Nổi Góc Màn Hình */
+.drive-floating-bar {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+.drive-float-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #2563eb;
+  color: #ffffff !important;
+  padding: 10px 18px;
+  border-radius: 9999px;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+.drive-float-btn:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+  color: #ffffff !important;
+}
+
+/* Tối ưu hiển thị Responsive trên Mobile */
+@media (max-width: 767px) {
+  .drive-course-card.is-popular {
+    transform: none !important;
+  }
+  .drive-metric-box {
+    margin-bottom: 12px;
+  }
+  .drive-form-container {
+    padding: 20px 16px;
+  }
+  .drive-float-btn span.label-text {
+    display: none;
+  }
+}
+

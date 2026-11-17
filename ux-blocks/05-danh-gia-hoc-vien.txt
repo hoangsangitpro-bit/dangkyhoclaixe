@@ -1,0 +1,95 @@
+[section bg_color="#f8fafc" padding="70px" padding__sm="35px" id="cam-nhan"]
+[row]
+[col span="12" span__sm="12" align="center"]
+<div style="font-size: 13px; font-weight: 800; color: #1d4ed8; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px;">TRẢI NGHIỆM HỌC VIÊN</div>
+<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">Đánh giá thực tế từ học viên</h2>
+<p style="font-size: 15px; color: #64748b; max-width: 650px; margin: 0 auto 40px auto;">
+  Hàng ngàn phản hồi chân thực từ những học viên đã tin tưởng lựa chọn trung tâm và tự tin cầm lái trên đường phố.
+</p>
+[/col]
+[/row]
+
+[row v_align="equal"]
+<!-- Đánh giá 1 -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-testi-card">
+  <div>
+    <div class="drive-stars" style="margin-bottom: 10px;">
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+    </div>
+    <p style="font-size: 13px; color: #334155; font-style: italic; line-height: 1.6; margin: 0;">
+      “Thầy giáo cực kỳ kiên nhẫn, ban đầu mình rất nhát tay lái nhưng được thầy chỉ bảo tận tình nên thi phát đậu ngay. Học phí chia làm 2 lần đóng rất thoải mái!”
+    </p>
+  </div>
+  <div style="display: flex; align-items: center; gap: 12px; padding-top: 14px; border-top: 1px solid #e2e8f0;">
+    <div class="drive-avatar-letter">MA</div>
+    <div>
+      <div style="font-size: 14px; font-weight: 700; color: #0f172a;">Chị Minh Anh</div>
+      <div style="font-size: 11px; color: #64748b;">Quận 7, TP.HCM • Tốt nghiệp hạng B1 (K28)</div>
+    </div>
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- Đánh giá 2 -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-testi-card">
+  <div>
+    <div class="drive-stars" style="margin-bottom: 10px;">
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+    </div>
+    <p style="font-size: 13px; color: #334155; font-style: italic; line-height: 1.6; margin: 0;">
+      “Ấn tượng nhất là xe tập hoàn toàn mới, máy lạnh mát rượi. Chạy đường trường DAT đủ 810km nên ra đường lớn tự tin lái luôn không cần bổ túc tay lái.”
+    </p>
+  </div>
+  <div style="display: flex; align-items: center; gap: 12px; padding-top: 14px; border-top: 1px solid #e2e8f0;">
+    <div class="drive-avatar-letter">QB</div>
+    <div>
+      <div style="font-size: 14px; font-weight: 700; color: #0f172a;">Anh Quốc Bảo</div>
+      <div style="font-size: 11px; color: #64748b;">Tân Bình, TP.HCM • Tốt nghiệp hạng B2 (K32)</div>
+    </div>
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- Đánh giá 3 -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-testi-card">
+  <div>
+    <div class="drive-stars" style="margin-bottom: 10px;">
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+      <span class="material-symbols-outlined">star</span>
+    </div>
+    <p style="font-size: 13px; color: #334155; font-style: italic; line-height: 1.6; margin: 0;">
+      “Lịch học tự chọn buổi tối và cuối tuần rất tiện cho dân văn phòng. Thủ tục khám sức khỏe làm hồ sơ ngay tại trung tâm không mất công đi lại.”
+    </p>
+  </div>
+  <div style="display: flex; align-items: center; gap: 12px; padding-top: 14px; border-top: 1px solid #e2e8f0;">
+    <div class="drive-avatar-letter">TT</div>
+    <div>
+      <div style="font-size: 14px; font-weight: 700; color: #0f172a;">Bạn Thanh Thảo</div>
+      <div style="font-size: 11px; color: #64748b;">TP. Thủ Đức • Tốt nghiệp hạng B1 (K34)</div>
+    </div>
+  </div>
+</div>
+[/ux_html]
+[/col]
+[/row]
+[/section]
+

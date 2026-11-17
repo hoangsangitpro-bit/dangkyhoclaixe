@@ -1,0 +1,178 @@
+[section bg_color="#ffffff" padding="70px" padding__sm="35px" id="khoa-hoc"]
+[row]
+[col span="12" span__sm="12" align="center"]
+<div style="font-size: 13px; font-weight: 800; color: #1d4ed8; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px;">CHƯƠNG TRÌNH ĐÀO TẠO</div>
+<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">Khóa học nổi bật</h2>
+<p style="font-size: 15px; color: #64748b; max-width: 650px; margin: 0 auto 40px auto;">
+  Các khóa đào tạo giấy phép lái xe đạt chuẩn của Sở GTVT TP.HCM với quyền lợi cam kết rõ ràng bằng văn bản pháp lý.
+</p>
+[/col]
+[/row]
+
+[row col_bg_radius="20" v_align="equal"]
+<!-- CỘT 1: HẠNG B1 (SỐ TỰ ĐỘNG) -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-course-card">
+  <div>
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+      <span style="background: #f1f5f9; color: #475569; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 6px;">Khuyên dùng cho gia đình</span>
+      <span style="font-size: 12px; font-weight: 600; color: #64748b;">3 - 4 tháng</span>
+    </div>
+    
+    <h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin-bottom: 4px;">Hạng B1 (Số tự động)</h3>
+    <p style="font-size: 13px; color: #64748b; margin-bottom: 16px;">Phù hợp xe gia đình 4 - 7 chỗ, xe cá nhân đô thị.</p>
+    
+    <div class="drive-price-box">
+      <div>
+        <span class="drive-current-price">14.500.000đ</span>
+        <span class="drive-old-price">18.500.000đ</span>
+      </div>
+      <div style="font-size: 12px; font-weight: 700; color: #059669; margin-top: 6px; display: flex; align-items: center; gap: 4px;">
+        <span class="material-symbols-outlined" style="font-size: 16px;">check_circle</span> Trọn gói không phát sinh
+      </div>
+    </div>
+    
+    <ul class="drive-feature-list">
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Thực hành xe Toyota Vios & Accent tự động đời mới 100%</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Giáo viên kèm riêng 1 kèm 1 suốt thời gian thực hành</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Học lái cabin mô phỏng 3D hiện đại nhất</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Tự chọn lịch học Thứ 2 đến Chủ Nhật, không phụ thu</span>
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <a href="#dang-ky-form" class="drive-btn-primary" style="width: 100%; border-radius: 10px !important;">
+      <span>Xem chi tiết lịch học</span>
+      <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+    </a>
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- CỘT 2: HẠNG B2 (SỐ SÀN - NỔI BẬT NHẤT) -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-course-card is-popular">
+  <div class="drive-popular-badge">
+    <span class="material-symbols-outlined" style="font-size: 16px;">local_fire_department</span>
+    <span>Học nhiều nhất</span>
+  </div>
+
+  <div>
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; margin-top: 5px;">
+      <span style="background: #dbeafe; color: #1e40af; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 6px;">Phổ biến nhất</span>
+      <span style="font-size: 12px; font-weight: 600; color: #64748b;">3.5 - 4 tháng</span>
+    </div>
+    
+    <h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin-bottom: 4px;">Hạng B2 (Số sàn)</h3>
+    <p style="font-size: 13px; color: #64748b; margin-bottom: 16px;">Lái xe số sàn, xe số tự động, chạy dịch vụ và kinh doanh vận tải.</p>
+    
+    <div class="drive-price-box">
+      <div>
+        <span class="drive-current-price">15.500.000đ</span>
+        <span class="drive-old-price">19.500.000đ</span>
+      </div>
+      <div style="font-size: 12px; font-weight: 700; color: #1d4ed8; margin-top: 6px; display: flex; align-items: center; gap: 4px;">
+        <span class="material-symbols-outlined" style="font-size: 16px;">verified</span> Hỗ trợ chia 2 đợt đóng học phí
+      </div>
+    </div>
+    
+    <ul class="drive-feature-list">
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Chạy đủ 810km DAT đường trường theo chuẩn Bộ GTVT</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Thực hành sa hình chuẩn thi không giới hạn số vòng</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>1 học viên / 1 thầy / 1 xe, rèn kỹ thuật đề pa dốc vững vàng</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Miễn phí hồ sơ, chụp ảnh thẻ, khám sức khỏe tại chỗ</span>
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <a href="#dang-ky-form" class="drive-btn-primary" style="width: 100%; border-radius: 10px !important;">
+      <span>Xem chi tiết lịch học</span>
+      <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+    </a>
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- CỘT 3: HẠNG C (XE TẢI) -->
+[col span="4" span__sm="12"]
+[ux_html]
+<div class="drive-course-card">
+  <div>
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+      <span style="background: #f1f5f9; color: #475569; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 6px;">Nghề nghiệp chuyên nghiệp</span>
+      <span style="font-size: 12px; font-weight: 600; color: #64748b;">5 - 6 tháng</span>
+    </div>
+    
+    <h3 style="font-size: 20px; font-weight: 800; color: #0f172a; margin-bottom: 4px;">Hạng C (Xe tải)</h3>
+    <p style="font-size: 13px; color: #64748b; margin-bottom: 16px;">Điều khiển xe tải trên 3.5 tấn và các loại xe hạng B1, B2.</p>
+    
+    <div class="drive-price-box">
+      <div>
+        <span class="drive-current-price">19.000.000đ</span>
+        <span class="drive-old-price">23.500.000đ</span>
+      </div>
+      <div style="font-size: 12px; font-weight: 700; color: #059669; margin-top: 6px; display: flex; align-items: center; gap: 4px;">
+        <span class="material-symbols-outlined" style="font-size: 16px;">check_circle</span> Bao gồm toàn bộ lệ phí thi tốt nghiệp
+      </div>
+    </div>
+    
+    <ul class="drive-feature-list">
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Học trên dàn xe tải tập lái chuẩn kích thước sát hạch</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Thầy giáo giàu kinh nghiệm 10+ năm đường dài và kỹ thuật cua xe</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Tập trung luyện 11 bài sa hình xe hạng C độc quyền</span>
+      </li>
+      <li>
+        <span class="material-symbols-outlined">check</span>
+        <span>Bao trọn gói xăng xe, sân bãi và tài liệu 600 câu</span>
+      </li>
+    </ul>
+  </div>
+  
+  <div>
+    <a href="#dang-ky-form" class="drive-btn-primary" style="width: 100%; border-radius: 10px !important;">
+      <span>Xem chi tiết lịch học</span>
+      <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+    </a>
+  </div>
+</div>
+[/ux_html]
+[/col]
+[/row]
+[/section]
+

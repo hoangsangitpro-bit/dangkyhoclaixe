@@ -1,0 +1,90 @@
+[section bg_color="#ffffff" padding="70px" padding__sm="35px" id="quy-trinh"]
+[row]
+[col span="12" span__sm="12" align="center"]
+<div style="font-size: 13px; font-weight: 800; color: #1d4ed8; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px;">LỘ TRÌNH RÕ RÀNG</div>
+<h2 style="font-size: 32px; font-weight: 800; color: #0f172a; margin-bottom: 12px;">Quy trình đào tạo chuẩn đậu cao</h2>
+<p style="font-size: 15px; color: #64748b; max-width: 650px; margin: 0 auto 40px auto;">
+  Lộ trình 4 giai đoạn chuẩn hóa từ lý thuyết đến thực hành thực tế, giúp học viên tự tin cầm lái vững vàng ngay sau khi nhận bằng.
+</p>
+[/col]
+[/row]
+
+[row v_align="equal"]
+<!-- BƯỚC 1 -->
+[col span="3" span__sm="12"]
+[ux_html]
+<div class="drive-step-card">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+    <span class="drive-step-num">1</span>
+    <span style="font-size: 12px; font-weight: 800; color: #1d4ed8; text-transform: uppercase;">Bước 1</span>
+  </div>
+  <h3 style="font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Nộp hồ sơ nhanh gọn</h3>
+  <p style="font-size: 13px; color: #475569; line-height: 1.55; margin-bottom: 12px;">
+    Chỉ cần CCCD gắn chip, mọi thủ tục giấy tờ, chụp hình thẻ và khám sức khỏe được chuyên viên hướng dẫn hoàn thiện trọn vẹn trong 15 phút.
+  </p>
+  <div style="margin-top: auto; font-size: 12px; font-weight: 700; color: #1d4ed8; display: flex; align-items: center; gap: 4px;">
+    <span class="material-symbols-outlined" style="font-size: 16px;">badge</span> Xếp lớp học ngay tuần sau
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- BƯỚC 2 -->
+[col span="3" span__sm="12"]
+[ux_html]
+<div class="drive-step-card">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+    <span class="drive-step-num">2</span>
+    <span style="font-size: 12px; font-weight: 800; color: #1d4ed8; text-transform: uppercase;">Bước 2</span>
+  </div>
+  <h3 style="font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Học lý thuyết & mô phỏng</h3>
+  <p style="font-size: 13px; color: #475569; line-height: 1.55; margin-bottom: 12px;">
+    Học mẹo ghi nhớ nhanh 600 câu hỏi luật giao thông và luyện 120 tình huống mô phỏng trên phần mềm độc quyền có giáo viên kèm cặp.
+  </p>
+  <div style="margin-top: auto; font-size: 12px; font-weight: 700; color: #1d4ed8; display: flex; align-items: center; gap: 4px;">
+    <span class="material-symbols-outlined" style="font-size: 16px;">menu_book</span> App ôn thi chuẩn đề Bộ GTVT
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- BƯỚC 3 -->
+[col span="3" span__sm="12"]
+[ux_html]
+<div class="drive-step-card">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+    <span class="drive-step-num">3</span>
+    <span style="font-size: 12px; font-weight: 800; color: #1d4ed8; text-transform: uppercase;">Bước 3</span>
+  </div>
+  <h3 style="font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Thực hành DAT & Sa hình</h3>
+  <p style="font-size: 13px; color: #475569; line-height: 1.55; margin-bottom: 12px;">
+    Chạy đủ 810km thiết bị giám sát hành trình DAT theo quy định. Thực hành thuần thục 11 bài thi sa hình liên hoàn trên sân sát hạch chuẩn ISO.
+  </p>
+  <div style="margin-top: auto; font-size: 12px; font-weight: 700; color: #1d4ed8; display: flex; align-items: center; gap: 4px;">
+    <span class="material-symbols-outlined" style="font-size: 16px;">directions_car</span> 1 học viên / 1 thầy / 1 xe
+  </div>
+</div>
+[/ux_html]
+[/col]
+
+<!-- BƯỚC 4 -->
+[col span="3" span__sm="12"]
+[ux_html]
+<div class="drive-step-card">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+    <span class="drive-step-num">4</span>
+    <span style="font-size: 12px; font-weight: 800; color: #1d4ed8; text-transform: uppercase;">Bước 4</span>
+  </div>
+  <h3 style="font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 8px;">Thi sát hạch & nhận bằng</h3>
+  <p style="font-size: 13px; color: #475569; line-height: 1.55; margin-bottom: 12px;">
+    Tham gia kỳ thi tốt nghiệp cấp chứng chỉ nghề, tự tin vượt qua kỳ thi sát hạch Sở GTVT và nhận giấy phép lái xe sau 10-14 ngày.
+  </p>
+  <div style="margin-top: auto; font-size: 12px; font-weight: 700; color: #1d4ed8; display: flex; align-items: center; gap: 4px;">
+    <span class="material-symbols-outlined" style="font-size: 16px;">celebration</span> Nhận bằng tận tay hoặc chuyển phát
+  </div>
+</div>
+[/ux_html]
+[/col]
+[/row]
+[/section]
+

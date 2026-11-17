@@ -1,0 +1,128 @@
+[section bg_color="#ffffff" padding="70px" padding__sm="35px" id="dang-ky-form"]
+[row]
+[col span="12" span__sm="12"]
+
+[ux_html]
+<div class="drive-form-container">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 36px; align-items: center;">
+    
+    <!-- CỘT TRÁI: QUYỀN LỢI & ƯU ĐÃI -->
+    <div>
+      <div class="drive-pill" style="margin-bottom: 12px;">
+        <span class="drive-dot-pulse"></span>
+        <span>Chỉ còn 4 suất ưu đãi tháng này</span>
+      </div>
+      
+      <h2 style="font-size: 30px; font-weight: 800; color: #0f172a; line-height: 1.25; margin-bottom: 12px;">
+        Đăng ký tư vấn & nhận lịch khai giảng mới nhất
+      </h2>
+      <p style="font-size: 15px; color: #475569; margin-bottom: 20px;">
+        Giảm ngay <strong style="color: #1d4ed8;">1.000.000đ</strong> cho 20 học viên đăng ký sớm nhất trong tháng này!
+      </p>
+      
+      <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px;">
+        <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: #334155;">
+          <span class="material-symbols-outlined" style="color: #2563eb; font-size: 18px;">check_circle</span>
+          <span>Học phí minh bạch, chia làm 2 đợt thanh toán linh hoạt</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: #334155;">
+          <span class="material-symbols-outlined" style="color: #2563eb; font-size: 18px;">check_circle</span>
+          <span>Học viên chủ động chọn giờ và địa điểm sân tập gần nhà</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px; font-size: 13px; color: #334155;">
+          <span class="material-symbols-outlined" style="color: #2563eb; font-size: 18px;">check_circle</span>
+          <span>Bảo lưu khóa học lên đến 12 tháng nếu bận công tác</span>
+        </div>
+      </div>
+      
+      <!-- Hộp Hotline Hỗ Trợ -->
+      <div style="display: flex; align-items: center; gap: 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 14px 18px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: #2563eb; color: #fff; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+          <span class="material-symbols-outlined" style="font-size: 22px;">headset_mic</span>
+        </div>
+        <div>
+          <div style="font-size: 11px; font-weight: 700; color: #64748b; text-transform: uppercase;">Tổng đài hỗ trợ 24/7</div>
+          <div style="font-size: 18px; font-weight: 800; color: #0f172a;">0909 123 456</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- CỘT PHẢI: FORM ĐĂNG KÝ TRỰC TIẾP -->
+    <div class="drive-form-box">
+      <form onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã đăng ký! Chuyên viên tuyển sinh AutoDrive sẽ liên hệ trong 5 phút để xác nhận ưu đãi 1.000.000đ.');">
+        
+        <!-- Hàng 1: Họ tên & SĐT -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px;">
+          <div class="drive-input-group">
+            <label>Họ và tên <span style="color:#ef4444;">*</span></label>
+            <input type="text" placeholder="Ví dụ: Nguyễn Văn An" required />
+          </div>
+          <div class="drive-input-group">
+            <label>Số điện thoại <span style="color:#ef4444;">*</span></label>
+            <input type="tel" pattern="[0-9]{10,11}" placeholder="Ví dụ: 0909 123 456" required />
+          </div>
+        </div>
+        
+        <!-- Hàng 2: Chọn Hạng Bằng -->
+        <div class="drive-input-group" style="margin-bottom: 14px;">
+          <label>Hạng bằng muốn học <span style="color:#ef4444;">*</span></label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px;">
+            <label class="drive-radio-option">
+              <input type="radio" name="flatsome_license" value="B1" checked />
+              <div>
+                <strong style="font-size: 12px; display: block;">Hạng B1</strong>
+                <span style="font-size: 10px; color: #64748b;">Số tự động</span>
+              </div>
+            </label>
+            <label class="drive-radio-option">
+              <input type="radio" name="flatsome_license" value="B2" />
+              <div>
+                <strong style="font-size: 12px; display: block;">Hạng B2</strong>
+                <span style="font-size: 10px; color: #64748b;">Số sàn</span>
+              </div>
+            </label>
+            <label class="drive-radio-option">
+              <input type="radio" name="flatsome_license" value="C" />
+              <div>
+                <strong style="font-size: 12px; display: block;">Hạng C</strong>
+                <span style="font-size: 10px; color: #64748b;">Xe tải</span>
+              </div>
+            </label>
+          </div>
+        </div>
+        
+        <!-- Hàng 3: Chọn Sân Tập -->
+        <div class="drive-input-group" style="margin-bottom: 18px;">
+          <label>Khu vực học thực hành gần bạn nhất</label>
+          <select>
+            <option value="q7">Sân Quận 7 - Đường Huỳnh Tấn Phát, P. Tân Thuận Đông</option>
+            <option value="tanbinh">Sân Tân Bình - Đường Hoàng Hoa Thám (Gần TSN)</option>
+            <option value="thuduc">Sân TP. Thủ Đức - Đường Lê Văn Việt, P. Tăng Nhơn Phú B</option>
+            <option value="binhthanh">Sân Bình Thạnh - Đường Ung Văn Khiêm, P. 25</option>
+            <option value="govap">Sân Gò Vấp - Đường Phan Văn Trị, P. 7</option>
+            <option value="q12">Sân Quận 12 - Đường Lê Thị Riêng, P. Thới An</option>
+            <option value="binhchanh">Sân Bình Chánh - Đường Nguyễn Hữu Trí, TT. Tân Túc</option>
+          </select>
+        </div>
+        
+        <!-- Nút Gửi Form -->
+        <button type="submit" class="drive-btn-primary" style="width: 100%; border-radius: 10px !important; padding: 14px; font-size: 16px;">
+          <span>Gửi đăng ký - Nhận ưu đãi ngay</span>
+          <span class="material-symbols-outlined" style="font-size: 18px;">send</span>
+        </button>
+        
+        <div style="font-size: 11px; color: #64748b; text-align: center; margin-top: 10px; display: flex; align-items: center; justify-content: center; gap: 4px;">
+          <span class="material-symbols-outlined" style="color: #059669; font-size: 15px;">lock</span>
+          <span>Bảo mật 100% thông tin. Tư vấn viên liên hệ trong 5 phút.</span>
+        </div>
+      </form>
+    </div>
+    
+  </div>
+</div>
+[/ux_html]
+
+[/col]
+[/row]
+[/section]
+
