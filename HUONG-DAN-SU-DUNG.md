@@ -1,4 +1,5 @@
 # HƯỚNG DẪN CÀI ĐẶT & SỬ DỤNG TRÊN FLATSOME UX BUILDER
+ádfghjkl
 
 Tất cả các khối đã được module hóa chuẩn shortcode của Flatsome Theme, tương thích 100% không bị xung đột CSS hay vỡ khung khi xem trên Điện thoại (Mobile), Máy tính bảng (Tablet) hay Máy tính (Desktop).
 
